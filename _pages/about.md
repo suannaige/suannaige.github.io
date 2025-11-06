@@ -9,27 +9,27 @@ redirect_from:
 
 **Ye Qin** is is currently a Undergraduate researcher at Guangdong University of Technology, supervised by [Prof.Jinghui Qin](https://scholar.google.co.jp/citations?user=HIQBxXAAAAAJ&hl=zh-CN&oi=ao).  His research interests include Computer Vision, Large Language Model and Data Mining.
 
-Email: 748503891@qq.com(**Please state your purpose/请您注明来意**)
+Email: 748503891@qq.com (**Please state your purpose/请您注明来意**)
 
 🌌 Long-term Goal / 长期目标
 ======
 🧠 AI Image Detection / AI图像检测
 
-To build scalable, robust, and interpretable AI image detection systems that address authenticity challenges posed by evolving generative content, shifting the paradigm from reactive identification to proactive defense, and establishing scientific foundations for global digital trust infrastructure.
+To build a computational framework capable of accurately detecting AI-generated imagery, demonstrating state-of-the-art robustness and cross-paradigm generalization across both known and novel generative paradigms, while requiring only minimal samples for precise adaptation to enable rapid and accurate inference.
 
 
-致力于构建可扩展、鲁棒且可解释的AI图像检测体系，以应对生成式内容演进带来的真实性挑战，推动技术从被动识别转向主动防御，为全球数字信任基础设施奠定科学基础。
+致力于建立一个能够准确检测人工智能生成图像的计算框架，在已知和新的生成范式中表现出最先进的鲁棒性和跨范式泛化，同时只需要很少的样本进行精确适应，以实现快速准确的推理。
 
 🔎 Research Interests / 研究兴趣
 ======
 1. **AI-Generated Image Detection / AI生成图像检测**
 
-2. **Optimization and Enhancement of AIGC Image Generation / AIGC图像生成的优化与增强**
+2. **Optimization and Enhancement of AIGC Image Generation / 优化与增强AIGC**
 
 3. **Data Mining / 数据挖掘**
    - Graph Representation Learning / 图表示学习
 
-Getting started
+Publication
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 2. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
