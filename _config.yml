@@ -23,7 +23,7 @@ repository               : "academicpages/suannaige.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "head.png"
   name             : "Ye Qin (秦烨)"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate Student"
