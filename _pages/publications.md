@@ -8,7 +8,7 @@ author_profile: true
 ## Preprints & Submissions
 
 <div style="margin-bottom: 2.5em;">
-<strong>Discerning True from False: A Feature-Decoupled Vision-Language Model for Diffusion-Generated Image Detection</strong><br>
+<strong>Fake Never Real: Detecting Diffusion-generated lmages with Feature Disentanglement Enhanced Vision-Language Model </strong><br>
 <strong>Ye Qin</strong> (First Author)<br>
 <em>Submitted to the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</em>
 </div>
