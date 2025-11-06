@@ -15,8 +15,10 @@ Email: 748503891@qq.com(**Please state your purpose/请您注明来意**)
 ======
 🧠 AI Image Detection / AI图像检测
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+To build scalable, robust, and interpretable AI image detection systems that address authenticity challenges posed by evolving generative content, shifting the paradigm from reactive identification to proactive defense, and establishing scientific foundations for global digital trust infrastructure.
 
+
+致力于构建可扩展、鲁棒且可解释的AI图像检测体系，以应对生成式内容演进带来的真实性挑战，推动技术从被动识别转向主动防御，为全球数字信任基础设施奠定科学基础。
 
 🔎 Research Interests / 研究兴趣
 ======
