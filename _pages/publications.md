@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Preprints & Submissions
 
 <div style="margin-bottom: 2.5em;">
 <strong>Fake Never Real: Detecting Diffusion-generated lmages with Feature Disentanglement Enhanced Vision-Language Model </strong><br>
