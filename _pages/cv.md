@@ -1,103 +1,102 @@
 ---
 layout: archive
-title: "个人简历"
+title: "CV"
 permalink: /cv/
 author_profile: true
 ---
-
 <div style="text-align: right; margin-bottom: 2rem;">
-  <a href="/cv_en/">English Version</a>
+  <a href="/cv_cn/">中文</a>
 </div>
 
-## 专业技能
-- **编程语言：** 熟悉 Python、C++
-- **深度学习框架：** 熟练使用 PyTorch 进行模型开发、训练与部署
-- **大模型技术：** 熟悉 LLM/MLLM 架构（如 Qwen-VL 系列），具备 LoRA 微调、指令微调、推理部署及效果评估经验
-- **多模态能力：** 掌握跨模态表征学习与融合方法，能设计端到端的多模态理解与生成系统
-- **工程落地：** 熟悉 ComfyUI 等 AIGC 工具链，具备技术文档撰写、新模块快速复现与系统集成能力
+## Technical Skills
+- **Programming Languages:** Proficient in Python and C++
+- **Deep Learning Frameworks:** Extensive experience with PyTorch for model development, training, and deployment
+- **Large Model Technologies:** Familiar with LLM/MLLM architectures (e.g., Qwen-VL series); experienced in LoRA fine-tuning, instruction tuning, inference deployment, and performance evaluation
+- **Multimodal Capabilities:** Skilled in cross-modal representation learning and fusion methods; capable of designing end-to-end multimodal understanding and generation systems
+- **Engineering & Deployment:** Proficient with AIGC toolchains such as ComfyUI; experienced in technical documentation, rapid prototyping of new modules, and system integration
 
 ---
 
-## 科研经历
+## Research Experience
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-  <strong>真假立辨：特征解耦增强的视觉语言模型用于扩散生成图像检测</strong>
-  <em>一作｜投稿 CVPR 2026 CCF-A</em>
+  <strong>Discerning the Real from the Synthetic: Feature-Disentangled Vision-Language Models for Diffusion-Generated Image Detection</strong>
+  <em>First Author | Submitted to CVPR 2026 (CCF-A)</em>
 </div>
-- 开创语义-噪声双路解耦架构，分层处理特征，显式解耦图像中的真实内容特征与生成器固有痕迹，提高 VLM 准确性
-- 首创VLM语义推理检测范式，利用VLM强大预训练知识，辅以小样本-高效参数微调，极大提高识别准确性和鲁棒性
-- 实现零样本跨模型强检测能力，仅用轻量 LoRA ，对已知与未知生成方式达到99%以上准确度，摆脱对特定生成器训练数据的依赖。跨数据集任务准确度优于 SOTA 10%
-- 实验证明模型具有极强的鲁棒性，在图像质量下降一半时检测精度仅降低 0.3%
+- Proposed a novel semantic-noise dual-path disentanglement architecture that hierarchically processes features to explicitly separate authentic content from generator-specific artifacts, significantly enhancing VLM accuracy.
+- Pioneered a VLM-based semantic reasoning paradigm for synthetic image detection, leveraging the rich pre-trained knowledge of VLMs combined with few-shot, parameter-efficient fine-tuning to achieve high accuracy and robustness.
+- Achieved strong zero-shot cross-generator detection performance: using only lightweight LoRA, attained >99% accuracy on both known and unseen generation methods, eliminating dependence on generator-specific training data. Outperformed state-of-the-art (SOTA) methods by 10% in cross-dataset evaluations.
+- Demonstrated exceptional robustness: detection accuracy dropped by only 0.3% even when image quality was degraded by 50%.
 
 <br>
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-  <strong>PR-CapsNet：面向图学习的伪黎曼胶囊网络</strong>
-  <em>一作｜WSDM 2026, CCF-B</em>
+  <strong>PR-CapsNet: Pseudo-Riemannian Capsule Networks for Graph Representation Learning</strong>
+  <em>First Author | Accepted to WSDM 2026 (CCF-B)</em>
 </div>
-- 提出首个在伪黎曼流形上运行的胶囊网络，通过自适应曲率动态路由机制融合多几何视角特征，解决异构图泛化难题
-- 设计几何一致的分类器，在节点分类与图分类任务上平均超越 SOTA 模型 5.2%
-- 在保持更高准确率的同时，模型 FLOPs 降低 3–5 倍，显著提升计算效率
-- 核心创新：① 伪黎曼动态路由（处理测地线不连通）；② 自适应曲率学习；③ 伪黎曼空间投影分类器
+- Introduced the first capsule network operating on pseudo-Riemannian manifolds, employing an adaptive-curvature dynamic routing mechanism to integrate multi-geometric perspectives and address generalization challenges in heterogeneous graphs.
+- Designed a geometrically consistent classifier that outperforms SOTA models by 5.2% on average in both node and graph classification tasks.
+- Achieved 3–5× lower FLOPs than existing methods while maintaining higher accuracy, substantially improving computational efficiency.
+- Core innovations: (1) Pseudo-Riemannian dynamic routing (handles geodesic discontinuities); (2) Adaptive curvature learning; (3) Projection-based classifier in pseudo-Riemannian space.
 
 <br>
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-  <strong>基于自约束风格解耦的语义分割单样本无监督域适应</strong>
-  <em>三作｜投稿 AAAI 2025, CCF-A</em>
+  <strong>Self-Constrained Style Disentanglement for One-Shot Unsupervised Domain Adaptation in Semantic Segmentation</strong>
+  <em>Third Author | Submitted to AAAI 2025 (CCF-A)</em>
 </div>
-- 提出轻量级风格解耦模块：在 ViT 特征后接入两个小型 CNN 编码器，分离语义与风格特征
-- 设计多目标联合损失函数，协同优化语义一致性、风格重建与图像重绘质量，实现训练效率与生成质量的平衡
-- 该模块可直接用于后续风格迁移或域适应任务，提升模型泛化能力
+- Developed a lightweight style-disentanglement module: two compact CNN encoders appended to ViT features to decouple semantic and stylistic representations.
+- Designed a multi-objective joint loss function that jointly optimizes semantic consistency, style reconstruction, and image re-rendering quality, balancing training efficiency and generation fidelity.
+- The module is plug-and-play for downstream tasks such as style transfer or domain adaptation, enhancing model generalization.
 
 ---
 
-## 项目经历
+## Project Experience
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-  <strong>异眼盯真: 基于昇腾全栈使能的细粒度多模态假新闻鉴定系统</strong>
-  <em>队长｜2025 华为昇腾 AI 大赛 ｜2025.06~至今</em>
+  <strong>EagleEye: Fine-Grained Multimodal Fake News Detection System Powered by Huawei Ascend Full-Stack AI</strong>
+  <em>Team Lead | Huawei Ascend AI Innovation Contest 2025 | Jun 2025 – Present</em>
 </div>
-- 设计深浅双层协同推理架构，增强模型检测能力
-- 运用二阶粗细粒度检测框架，实现多种伪造手段的识别
-- 构建中文多模态数据集，让模型对中文语境适配，准确度超市面竞品40%
+- Designed a shallow-deep collaborative reasoning architecture to enhance detection capability.
+- Implemented a two-stage coarse-to-fine detection framework capable of identifying diverse forgery techniques.
+- Constructed a Chinese multimodal dataset tailored to local linguistic and cultural contexts, achieving 40% higher accuracy than commercial competitors.
 
 <br>
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-  <strong>极端天气下无人驾驶船舶自动避让系统</strong>
-  <em>队长｜2024 华为昇腾 AI 大赛 · 最具商业潜力奖｜2024.06~2024.12</em>
+  <strong>Autonomous Collision Avoidance System for Unmanned Vessels in Extreme Weather</strong>
+  <em>Team Lead | Huawei Ascend AI Innovation Contest 2024 – “Most Commercially Promising Award” | Jun 2024 – Dec 2024</em>
 </div>
-- 基于 MAPPO 强化学习算法训练避障策略网络，设计多目标奖励函数平衡安全性与路径效率
-- 融合船舶动力学参数与 RL 决策模块，完成系统集成并在真实水域开展多轮极端天气测试，验证系统鲁棒性
+- Trained an obstacle-avoidance policy network using MAPPO reinforcement learning, with a multi-objective reward function balancing safety and path efficiency.
+- Integrated vessel dynamics parameters with the RL decision module; conducted multiple rounds of real-world water trials under extreme weather conditions, validating system robustness.
 
 <br>
 
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
-  <strong>基于昇腾平台的细胞检测软件</strong>
-  <em>队长｜2023 华为昇腾 AI 大赛 · 广州金奖｜2023.06~2023.12</em>
+  <strong>Ascend-Powered Cell Detection Software</strong>
+  <em>Team Lead | Huawei Ascend AI Innovation Contest 2023 – Guangzhou Gold Award | Jun 2023 – Dec 2023</em>
 </div>
-- 设计端到端细胞检测系统，集成数据输入、预处理、推理与结果可视化全流程
-- 基于 DiffusionDet 框架引入扩散机制，显著提升对微小肿瘤细胞的检测敏感度与抗干扰能力
-- 使用私有+公开混合数据集训练，在真实临床样本中检测准确率较现有方法提升约 15%
+- Developed an end-to-end cell detection system encompassing data input, preprocessing, inference, and result visualization.
+- Enhanced the DiffusionDet framework with diffusion mechanisms, significantly improving sensitivity to tiny tumor cells and robustness against noise.
+- Trained on a hybrid dataset (private + public); achieved ~15% higher detection accuracy than existing methods on real clinical samples.
 
 ---
 
-## 荣誉证书
+## Honors & Certifications
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
-  <span>2024 华为昇腾 AI 大赛（广州区）最具商业潜力奖</span>
-  <strong>2024.10</strong>
+  <span>Huawei Ascend AI Innovation Contest 2024 (Guangzhou) – Most Commercially Promising Award</span>
+  <strong>Oct 2024</strong>
 </div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
-  <span>广东工业大学校级奖学金（三等奖）</span>
-  <strong>2024.09</strong>
+  <span>Guangdong University of Technology – University-Level Scholarship (Third Class)</span>
+  <strong>Sep 2024</strong>
 </div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
-  <span>2023 华为昇腾 AI 大赛（广州区）金奖</span>
-  <strong>2023.10</strong>
+  <span>Huawei Ascend AI Innovation Contest 2023 (Guangzhou) – Gold Award</span>
+  <strong>Oct 2023</strong>
 </div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
-  <span>第14届蓝桥杯 C/C++ 程序设计大赛（广东赛区）二等奖</span>
-  <strong>2023.04</strong>
+  <span>14th Blue Bridge Cup – C/C++ Programming Contest (Guangdong Province) – Second Prize</span>
+  <strong>Apr 2023</strong>
 </div>
