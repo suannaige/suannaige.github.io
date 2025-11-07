@@ -21,5 +21,5 @@ author_profile: true
 <div style="margin-bottom: 2.5em;">
 <strong>Single-Sample Unsupervised Domain Adaptation for Semantic Segmentation via Self-Constrained Style Decoupling</strong><br>
 <strong>Ye Qin</strong> (Third Author)<br>
-<em>Submitted to the AAAI Conference on Artificial Intelligence (AAAI), 2025</em>
+<em>Submitted to the AAAI Conference on Artificial Intelligence (AAAI), 2026</em>
 </div>
