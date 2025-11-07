@@ -6,7 +6,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<img src="images/ciallo.png" alt="Ye Qin profile picture" width="300"/>
+<br>
+
+<div style="text-align: center;">
+  <img src="images/ciallo.png" alt="Ye Qin profile picture" width="350" style="display: inline-block;"/>
+</div>
+
+<br>
 
 
 **Ye Qin** is is currently a Undergraduate researcher at Guangdong University of Technology, supervised by [Prof.Jinghui Qin](https://scholar.google.co.jp/citations?user=HIQBxXAAAAAJ&hl=zh-CN&oi=ao).  His research interests include Computer Vision, Large Language Model and Data Mining.
@@ -40,7 +46,7 @@ Total Publications: 2
   - 🔹 First Author
   - 🕒 Under Review
 
- - 🕒 🔹[Fake NeverReal: Detecting Diffusion-generated lmages with FeatureDisentanglement Enhanced Vision-Language Model (CVPR 26)](https://dadad)
+ - 🕒 🔹[Fake Never Real: Detecting Diffusion-generated lmages with FeatureDisentanglement Enhanced Vision-Language Model (CVPR 26)](https://dadad)
 
  - 🔹 [PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning (WSDM 26)](https://dadad)
 
