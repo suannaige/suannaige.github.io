@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+![](images/ciallo.png)
 **Ye Qin** is is currently a Undergraduate researcher at Guangdong University of Technology, supervised by [Prof.Jinghui Qin](https://scholar.google.co.jp/citations?user=HIQBxXAAAAAJ&hl=zh-CN&oi=ao).  His research interests include Computer Vision, Large Language Model and Data Mining.
 
 Email: 748503891@qq.com (**Please state your purpose/请您注明来意**)
