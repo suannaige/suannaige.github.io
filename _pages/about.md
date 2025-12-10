@@ -48,5 +48,5 @@ Total Publications: 2
 
  - 🕒 🔹[Fake Never Real: Detecting Diffusion-generated lmages with Feature Disentanglement Enhanced Vision-Language Model (CVPR 26)](https://dadad)
 
- - 🔹 [PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning (WSDM 26)](https://dadad)
+ - 🔹 [PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning (WSDM 26)](https://arxiv.org/abs/2512.08218)
 
